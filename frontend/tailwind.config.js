@@ -8,7 +8,10 @@ module.exports = {
                 porcelain: "#FFFCF8",
                 amaranth: "#80677F",
                 carbon: "#2F2F2F",
-            }
+            },
+            fontFamily: {
+                teachers: ['"Teachers"', 'system-ui', 'sans-serif'],
+            },
         }
     },
     plugins: [],
