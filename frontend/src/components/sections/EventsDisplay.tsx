@@ -3,11 +3,19 @@ export default function EventsDisplay() {
         {
             title: "Example Workshop",
             description: "This is a sample workshop card."
+        },
+        {
+            title: "Example Workshop 2",
+            description: "This is a sample workshop card."
+        },
+        {
+            title: "Example Workshop 3",
+            description: "This is a sample workshop card."
         }
     ]
 
     return (
-        <section className="w-full px-6 py-10 font-teachers">
+        <section className="w-full px-6 py-10">
             //big title
             <h2 className="text-2xl font-semibold mb-6">
                 past events
