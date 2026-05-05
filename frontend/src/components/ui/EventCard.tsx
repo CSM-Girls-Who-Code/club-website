@@ -14,7 +14,7 @@ export default function EventCard({
 
   return (<Link
     to={`/workshop/${slug}`}
-    className="block border rounded p-4 shadow-sm hover:shadow-md transition"
+    className="block border rounded p-4 shadow-sm hover:shadow-md transition font-teachers"
   >
 
     //event title

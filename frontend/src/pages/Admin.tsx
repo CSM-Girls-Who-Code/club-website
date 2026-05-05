@@ -11,7 +11,7 @@ export default function Admin() {
 
     if (!isLoggedIn) {
         return (
-            <main className="p-6">
+            <main className="p-6 font-teachers">
 
                 <h1 className="text-2xl font-bold mb-4">
                     board login
@@ -28,7 +28,7 @@ export default function Admin() {
     }
 
     return (
-        <main className="p-6">
+        <main className="p-6 font-teachers">
             <h1 className="text-2xl font-bold mb-6">
                 cms dashboard
             </h1>

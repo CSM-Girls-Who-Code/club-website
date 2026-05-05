@@ -1,6 +1,6 @@
 export default function Hero() {
     return (
-        <section className="w-full min-h-[60vh] flex flex-col items-center justify-center text-center px-6">
+        <section className="font-teachers w-full min-h-[60vh] flex flex-col items-center justify-center text-center px-6">
             //da big title
             <h1 className="text-4xl font-bold">
                 big title

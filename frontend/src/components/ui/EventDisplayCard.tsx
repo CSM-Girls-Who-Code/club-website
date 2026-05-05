@@ -11,7 +11,7 @@ export default function EventDisplayCard({
   image,
 }: EventDisplayCardProps) {
   return (
-    <div className="border rounded-lg p-5 shadow-sm bg-white">
+    <div className="border rounded-lg p-5 shadow-sm bg-porcelain font-teachers">
 
       //title
       <h3 className="text-lg font-semibold">

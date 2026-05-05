@@ -7,7 +7,7 @@ export default function EventsDisplay() {
     ]
 
     return (
-        <section className="w-full px-6 py-10">
+        <section className="w-full px-6 py-10 font-teachers">
             //big title
             <h2 className="text-2xl font-semibold mb-6">
                 past events

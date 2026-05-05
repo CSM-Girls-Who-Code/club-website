@@ -3,7 +3,7 @@ import EventsDisplay from "../components/sections/EventsDisplay"
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="font-teachers">
       <Hero />
       <EventsDisplay />
     </div>
