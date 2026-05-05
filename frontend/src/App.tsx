@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Events from "./pages/Events"
 import Admin from "./pages/Admin"
 import Navbar from "./components/layout/Navbar"
+import Footer from "./components/layout/Footer"
 
 export default function App() {
     return (
@@ -17,6 +18,7 @@ export default function App() {
                     <Route path="/workshop" element={<Events />} />
                     <Route path="/admin" element={<Admin />} />
                 </Routes>
+                <Footer />
             </BrowserRouter>
         </div>
     )

@@ -3,9 +3,9 @@ import EventsDisplay from "../components/sections/EventsDisplay"
 
 export default function Home() {
   return (
-    <main>
+    <div className="">
       <Hero />
       <EventsDisplay />
-    </main>
+    </div>
   )
 }
