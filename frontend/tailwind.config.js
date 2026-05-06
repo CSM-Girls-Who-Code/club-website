@@ -1,5 +1,9 @@
-module.exports = {
-    content: ["./index.html", "./src/**/*.{ts,tsx}"],
+/** @type {import('tailwindcss').Config} */
+export default {
+    content: [
+        "./index.html",
+        "./src/**/*.{js,ts,jsx,tsx}",
+    ],
     theme: {
         extend: {
             colors: {
@@ -10,9 +14,9 @@ module.exports = {
                 carbon: "#2F2F2F",
             },
             fontFamily: {
-                teachers: ['"Teachers"', 'system-ui', 'sans-serif'],
+                teachers: ['Teachers', 'cursive'],
             },
-        }
+        },
     },
     plugins: [],
 }
