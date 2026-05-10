@@ -23,7 +23,6 @@ export default function App() {
                         <Route path="/about" element={<About />} />
                         <Route path="/events" element={<Events />} />
 
-                        {/* ✅ THIS WAS MISSING */}
                         <Route path="/event/:slug" element={<EventDetails />} />
 
                         <Route path="/admin" element={<Admin />} />
