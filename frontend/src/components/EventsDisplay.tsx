@@ -26,11 +26,11 @@ export default function EventsDisplay() {
 
                     <div className="max-w-2xl space-y-4">
                         <h2 className="text-4xl lg:text-5xl font-bold">
-                            Past Workshops
+                            Past Events
                         </h2>
 
                         <p className="text-carbon/60">
-                            TODO: Add short description of why we host workshops and what impact they had
+                            TODO: Add short description of why we host events and what impact they had
                         </p>
                     </div>
 
@@ -38,7 +38,7 @@ export default function EventsDisplay() {
                         href="/events"
                         className="text-sm underline underline-offset-4 hover:text-amaranth transition"
                     >
-                        View Workshops
+                        View Events
                     </a>
                 </div>
 
