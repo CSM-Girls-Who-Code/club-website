@@ -31,7 +31,7 @@ const Home = () => {
           </h3>
         </div>
 
-        <div className="border-lilac border-2 bg-cream text-lilac rounded-full scale-125 hover:border-basil hover:bg-basil hover:text-cream">
+        <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-20 border-lilac border-2 bg-porcelain text-lilac rounded-full scale-125 hover:border-porcelain hover:bg-lilac hover:text-porcelain transition">
           <ExploreButton to="/about" label="About" />
         </div>
       </div>
