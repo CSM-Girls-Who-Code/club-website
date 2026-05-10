@@ -7,7 +7,6 @@ const Home = () => {
   return (
     <div className="bg-porcelain relative w-full overflow-hidden tracking-wide text-carbon">
 
-      {/* ✅ GLOBAL BUTTON (outside hero stacking context) */}
       <Link
         to="/admin"
         className="fixed top-6 right-6 z-[9999] px-4 py-2 rounded-full bg-porcelain text-carbon border border-carbon/20 hover:opacity-80 transition font-teachers"
