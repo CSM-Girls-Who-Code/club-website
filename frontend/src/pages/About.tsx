@@ -7,7 +7,7 @@ const About = () => {
         <div className="bg-cream text-fog">
             <section className="flex flex-col items-center py-8 space-y-6 tracking-wide bg-cream text-fog">
                 <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl transform font-teachers">
-                    our values
+                    about us
                 </h1>
                 <p className="w-2/3 text-xl font-teachers text-center">
                     CSM Girls Who Code is a club.
