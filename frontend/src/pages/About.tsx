@@ -4,7 +4,7 @@ import { LuHeartHandshake } from "react-icons/lu";
 
 const About = () => {
     return (
-        <div className="bg-cream text-fog">
+        <div className="pt-24 py-10 px-6 bg-cream text-fog">
             <section className="flex flex-col items-center py-8 space-y-6 tracking-wide bg-cream text-fog">
                 <h1 className="text-2xl sm:text-2xl md:text-3xl lg:text-5xl transform font-teachers">
                     about us
