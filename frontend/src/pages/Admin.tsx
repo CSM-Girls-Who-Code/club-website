@@ -146,7 +146,7 @@ export default function Admin() {
                 </button>
             </div>
 
-            {/* SELECT EVENT */}
+            {/* select event */}
             <section className="border p-4 rounded mb-6">
                 <h2 className="font-semibold mb-2">Select Event</h2>
 
@@ -174,7 +174,7 @@ export default function Admin() {
                 </select>
             </section>
 
-            {/* CREATE */}
+            {/* create */}
             <section className="border p-4 rounded mb-6">
                 <h2 className="font-semibold mb-2">Create Event</h2>
 
@@ -210,7 +210,7 @@ export default function Admin() {
                 </button>
             </section>
 
-            {/* UPDATE */}
+            {/* upate */}
             <section className="border p-4 rounded mb-6">
                 <h2 className="font-semibold mb-2">Update Event</h2>
 
@@ -223,7 +223,7 @@ export default function Admin() {
                 )}
             </section>
 
-            {/* DELETE */}
+            {/* delete */}
             <section className="border p-4 rounded">
                 <h2 className="font-semibold mb-2">Delete Event</h2>
 

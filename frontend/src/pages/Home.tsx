@@ -36,6 +36,35 @@ const Home = () => {
         </div>
       </div>
 
+      {/* Featured Event Card */}
+      <div className="w-full flex justify-center mt-10 px-4">
+        <div className="w-full max-w-4xl bg-porcelain border border-carbon/10 rounded-2xl shadow-sm p-6 font-teachers">
+
+          <h2 className="text-2xl md:text-3xl font-bold mb-2">
+            Building Products with Figma
+          </h2>
+
+          <p className="text-carbon/70 mb-4">
+            An informational workshop on how to design products such as websites or application interfaces using Figma.
+          </p>
+
+          <div className="flex flex-col sm:flex-row sm:justify-between gap-2 text-sm text-carbon/60">
+
+            <div>
+              <span className="font-semibold text-carbon">Time:</span>
+              {" "}May 12, 1:00 PM - 1:30 PM
+            </div>
+
+            <div>
+              <span className="font-semibold text-carbon">Location:</span>
+              {" "}College of San Mateo, Building 15 Conference Room
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
       <EventsDisplay />
     </div>
   )
