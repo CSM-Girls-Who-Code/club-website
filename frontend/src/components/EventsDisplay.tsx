@@ -2,14 +2,16 @@ export default function EventsDisplay() {
     const workshops = [
         {
             title: "AI Engineering Workshop",
+            image: "/images/ai-workshop.jpeg", 
             description: "In our “AI-Powered Software Development: The Future of Engineering” workshop, we featured guest speakers Dharmendra Kumar and Kiran KV, principal software engineers at Magnit Global. During the workshop, they shared professional insights into AI-integrated development and how these technologies are being applied in higher-level engineering environments. The event featured a technical presentation followed by an interactive Q&A session, which gave students the opportunity to speak directly with the guest speakers. ",
         },
         {
-            title: "Software Development Workshop",
+            title: "Software Development Workshop", 
             description: "Add short description of event and image",
         },
         {
             title: "Tech Through Her Eyes Workshop",
+            image: "/images/techThroughHerEyesFlyer.png", 
             description: "Girls Who Code is hosted this special event featuring our club advisor Professor Hellen Pacheco & student Michael Poiente, who shared their experiences navigating the field of technology. This program highlighted the diverse perspectives, challenges, and successes within the tech industry, offering students the opportunity to learn from real-world journeys and engage in meaningful conversations.",
         },
     ];
@@ -42,7 +44,7 @@ export default function EventsDisplay() {
                     </a>
                 </div>
 
-                {/* Evcnt Cards */}
+                {/* Event Cards */}
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
                     {workshops.map((w, index) => (
                         <div
