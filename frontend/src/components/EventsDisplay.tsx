@@ -52,7 +52,17 @@ export default function EventsDisplay() {
                             key={index}
                             className="rounded-2xl overflow-hidden bg-white shadow-sm hover:shadow-md transition"
                         >
-                            <div className="h-40 bg-lilac/30" />
+                            <div className="h-40 overflow-hidden">
+                                {w.image ? (
+                                     <img 
+                                      src={w.image} 
+                                     alt={w.title} 
+                                    className="w-full h-full object-cover"
+                                />
+                              ) : (
+                              <div className="w-full h-full bg-lilac/30" />
+                          )}
+                           </div>
 
                             <div className="p-5 space-y-2">
                                 <h3 className="font-semibold text-lg">
