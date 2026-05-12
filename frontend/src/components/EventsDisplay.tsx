@@ -33,7 +33,7 @@ export default function EventsDisplay() {
                         </h2>
 
                         <p className="text-carbon/60">
-                            TODO: Add short description of why we host events and what impact they had
+                            We host events to bridge the gap between classroom theory and real-world application. Our goal is to create a "low-stakes, high-growth" environment where students can experiment with new technologies, collaborate across disciplines, and build confidence outside of a traditional grading structure.
                         </p>
                     </div>
 
