@@ -6,8 +6,9 @@ export default function EventsDisplay() {
             description: "In our “AI-Powered Software Development: The Future of Engineering” workshop, we featured guest speakers Dharmendra Kumar and Kiran KV, principal software engineers at Magnit Global. During the workshop, they shared professional insights into AI-integrated development and how these technologies are being applied in higher-level engineering environments. The event featured a technical presentation followed by an interactive Q&A session, which gave students the opportunity to speak directly with the guest speakers. ",
         },
         {
-            title: "Software Development Workshop", 
-            description: "Add short description of event and image",
+            title: "SMCCD 3rd Hackathon", 
+            image: "/images/hackathonflyer.png", 
+            description: "The 3rd SMCCD Hackathon brought together a diverse group of students to explore the intersections of technology and community. Designed for all experience levels, the event featured three distinct trials: Game Development, Embedded Systems, and Improving SMCCD. Participants spent the day collaborating on solutions ranging from district-wide process improvements to creative digital experiences and hardware prototypes, highlighting the versatility and ingenuity of our student body.",
         },
         {
             title: "Tech Through Her Eyes Workshop",
